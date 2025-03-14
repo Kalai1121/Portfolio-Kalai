@@ -1,0 +1,287 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, #1b1b32, #22263d);/* Purple to Indigo Gradient */
+    color: #a99cb1;
+}
+.bgimage {
+    height:100vh;
+    width: 100%;
+    background: url('images/heroimage_1.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: #a99cb1;
+}
+.navbar {
+    background-color: #1b1b32; /* Indigo Blue */
+    color: #a99cb1;
+    padding: 1em;
+}
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 1em;
+    color: #BB86FC;
+}
+.navbar-nav .nav-link {
+    color: #a99cb1 !important;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar-nav .nav-link:hover {
+    color: rgba(136, 136, 206, 0.7) !important;
+}
+.navbar.fixed-top {
+    background: rgba(27, 27, 50, 0.9); /* Semi-transparent */
+    transition: all 0.3s ease-in-out;
+}
+.navbar-toggler {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.navbar-toggler-icon {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1828/1828859.png") !important;
+    width: 30px;
+    height: 30px;
+}
+section {
+    scroll-margin-top: 70px;
+}
+#about {
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 10px;
+    margin: 2em;
+    color: #a99cb1;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+}
+#about h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #BB86FC; /* Light Purple */
+}
+.profile-img {
+    width: 80%;
+    max-width: 300px; 
+    border-radius: 10px;
+}
+.info-box {
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid rgb(163, 163, 163);
+    text-align: center;
+    /* background: rgba(255, 255, 255, 0.1); */
+}
+.info-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.info-box h3 {
+    font-size: 1.3rem;
+    color: #BB86FC;
+}
+.icon {
+    font-size: 10px;
+    text-align: center;
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+}
+#skills {
+    padding: 2em;
+    color: #a99cb1;
+}
+#skills h2{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #BB86FC;
+    text-align: justify;
+}
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.skill-block h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #BB86FC; /* Light Purple */
+    text-align: center;
+}
+.skillsText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.skillsIcon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.skill-block :hover{
+    color: #121226;
+}
+.card-title {
+    text-align: center;
+}
+.card {
+    height: 100%;
+}
+.row {
+    justify-content: center;
+}
+#portfolio {
+    padding: 2em;
+    color:#a893d9;
+}
+#portfolio h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #BB86FC; /* Light Purple */
+    text-align: center;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #673AB7; /* Purple */
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+#contact {
+    padding: 2em;
+}
+#contact h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #BB86FC; /* Light Purple */
+    text-align: center;
+}
+#contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #BB86FC; /* Purple Border */
+    border-radius: 10px;
+}
+#contact button[type="submit"] {
+    background-color: #673AB7; /* Purple */
+    color: #a99cb1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: block; 
+    margin: 20px auto;
+}
+#contact button[type="submit"]:hover {
+    background-color: #a893d9; /* Darker Purple */
+}
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-envelope:hover,.fa-github:hover,.fa-linkedin:hover {
+    color: #a893d9;
+}
+.fab,.fas {
+    color:aliceblue;
+    padding: 10px;
+}
+/* footer styling */
+#footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: white;
+}
+@media (max-width: 768px) {
+    .bgimage{
+        background-size: contain;
+        height: 50vh;
+    }
+    .hero_title {
+        font-size: 2.5rem;
+    }
+    .hero_desc {
+        font-size: 1rem;
+    }
+    .hero-text {
+        text-align: left;
+        position: absolute;
+        top: 30%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        color: #a99cb1;
+    }
+    #about {
+        display: flex;
+        flex-direction: row; /* Align image and text side by side */
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        gap: 20px; /* Add spacing */
+    }
+    .profile-img {
+        margin-bottom: 20px;
+        width: 40%;
+    }
+    .info-box {
+        margin-bottom: 15px;
+    }
+    .navbar {
+        padding: 0.5em;
+    }
+    .navbar-collapse {
+        background:#22263d;
+        padding: 10px;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+    .skillsIcon{
+        width: 60px;
+        height: 60px;
+    }
+
+}
