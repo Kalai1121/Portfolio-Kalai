@@ -234,6 +234,9 @@ section {
     color: white;
 }
 @media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
     .bgimage{
         background-size: contain;
         height: 50vh;
