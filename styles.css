@@ -236,13 +236,13 @@ section {
 @media (max-width: 768px) {
     .bgimage{
         background-size: contain;
-        height: 75vh;
+        height: 50vh;
     }
     .hero_title {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .hero_desc {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .hero-text {
         text-align: left;
