@@ -236,6 +236,8 @@ section {
 @media (max-width: 768px) {
     body{
         overflow-x: hidden;
+        margin: 0;
+        padding: 0;
     }
     .bgimage{
         background-size: contain;
