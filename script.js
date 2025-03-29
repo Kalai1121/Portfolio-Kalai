@@ -1,6 +1,6 @@
 // Carousel script
 $(document).ready(function(){
-    $('#carouselExampleControls').carousel({
+    $('#carouselControls').carousel({
         interval: 3000
     });
 });

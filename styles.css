@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background: linear-gradient(to bottom, #1b1b32, #22263d);/* Purple to Indigo Gradient */
+    background: linear-gradient(to bottom, #1b1b32, #22263d);
     color: #a99cb1;
 }
 .bgimage {
@@ -18,7 +18,6 @@ body {
     justify-content: center;
     text-align: center;
 }
-/* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
     font-weight: bold;
@@ -35,7 +34,7 @@ body {
     color: #a99cb1;
 }
 .navbar {
-    background-color: #1b1b32; /* Indigo Blue */
+    background-color: #1b1b32; 
     color: #a99cb1;
     padding: 1em;
 }
@@ -71,20 +70,20 @@ section {
 }
 #about {
     padding: 2em;
-    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.1); 
     border-radius: 10px;
     margin: 2em;
     color: #a99cb1;
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center content horizontally */
+    flex-direction: column; 
+    align-items: center;
     text-align: center;
 }
 #about h2 {
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 30px;
-    color: #BB86FC; /* Light Purple */
+    color: #BB86FC; 
 }
 .profile-img {
     width: 80%;
@@ -133,7 +132,7 @@ section {
 .skill-block h3 {
     font-size: 1.5em;
     font-weight: bold;
-    color: #BB86FC; /* Light Purple */
+    color: #BB86FC;
     text-align: center;
 }
 .skillsText.card {
@@ -166,7 +165,7 @@ section {
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #BB86FC; /* Light Purple */
+    color: #BB86FC; 
     text-align: center;
 }
 .carousel-inner img {
@@ -175,7 +174,7 @@ section {
     object-fit: cover;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: #673AB7; /* Purple */
+    background-color: #673AB7; 
     width: 30px;
     height: 30px;
     text-align: center;
@@ -188,7 +187,7 @@ section {
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #BB86FC; /* Light Purple */
+    color: #BB86FC; 
     text-align: center;
 }
 #contact label {
@@ -199,11 +198,11 @@ section {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #BB86FC; /* Purple Border */
+    border: 1px solid #BB86FC; 
     border-radius: 10px;
 }
 #contact button[type="submit"] {
-    background-color: #673AB7; /* Purple */
+    background-color: #673AB7; 
     color: #a99cb1;
     padding: 10px 20px;
     border: none;
@@ -214,7 +213,7 @@ section {
     margin: 20px auto;
 }
 #contact button[type="submit"]:hover {
-    background-color: #a893d9; /* Darker Purple */
+    background-color: #a893d9; 
 }
 .social-icons {
     font-size: 36px;
@@ -254,10 +253,10 @@ section {
     }
     #about {
         display: flex;
-        flex-direction: row; /* Align image and text side by side */
-        align-items: center; /* Center vertically */
-        justify-content: center; /* Center horizontally */
-        gap: 20px; /* Add spacing */
+        flex-direction: row;
+        align-items: center; 
+        justify-content: center; 
+        gap: 20px; 
     }
     .profile-img {
         margin-bottom: 20px;
@@ -286,4 +285,4 @@ section {
 }
 
 
-}
+
