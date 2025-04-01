@@ -17,6 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative;
 }
 .hero_title {
     font-size: 4.5rem;
@@ -32,6 +33,17 @@ body {
     left: 65%;
     transform: translate(-50%, -50%);
     color: #a99cb1;
+}
+/* #c385e2 */
+.hero-text .btn{
+    display: inline-block;
+    margin: 0 60px;
+    background-color: #b0a8b4;
+    color: #1b1b32;
+    font-weight: bold;
+}
+.hire-me-button{
+    translate: 100px;
 }
 .navbar {
     background-color: #1b1b32; 
@@ -113,6 +125,11 @@ section {
     width: auto;
     margin: 0 auto;
 }
+.resume-button, .link-button{
+    background-color: #BB86FC; 
+    color: #020215;
+    font-weight: bold;
+}
 #skills {
     padding: 2em;
     color: #a99cb1;
@@ -182,6 +199,7 @@ section {
 }
 #contact {
     padding: 2em;
+    color: aliceblue;
 }
 #contact h2 {
     font-size: 2em;
@@ -202,8 +220,8 @@ section {
     border-radius: 10px;
 }
 #contact button[type="submit"] {
-    background-color: #673AB7; 
-    color: #a99cb1;
+    background-color: #BB86FC;
+    color: #020215;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
@@ -211,6 +229,7 @@ section {
     text-align: center;
     display: block; 
     margin: 20px auto;
+    font-weight: bold;
 }
 #contact button[type="submit"]:hover {
     background-color: #a893d9; 
@@ -233,9 +252,13 @@ section {
     color: white;
 }
 @media (max-width: 600px) {
+    html, body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .bgimage{
         background-size: contain;
-        height: 50vh;
+        height: 25vh;
     }
     .hero_title {
         font-size: 2rem;
@@ -245,15 +268,21 @@ section {
     }
     .hero-text {
         text-align: left;
-        position: absolute;
-        top: 30%;
         left: 60%;
         transform: translate(-50%, -50%);
         color: #a99cb1;
     }
+    .hero-text .btn{
+        margin: 0 10px;
+        background-color: #b0a8b4;
+        color: #1b1b32;
+    }
+    .hire-me-button{
+        translate: 0;
+    }
     #about {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center; 
         justify-content: center; 
         gap: 20px; 
