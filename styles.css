@@ -269,7 +269,7 @@ section {
     .hero-text {
         text-align: left;
         left: 60%;
-        transform: translate(-55%, -70%);
+        transform: translate(-50%, -70%);
         color: #a99cb1;
     }
     .hero-text .btn{
